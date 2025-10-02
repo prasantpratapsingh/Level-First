@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    width: 100%;
+    background-color: black;
+}
+
+/* Section ---> jisame sare section aayenge */
+section {
+    background-color: beige;
+    margin: 90px;
+    width: 85vw;
+    height: 138vh;
+    font-family: sans-serif;
+    border-radius: 7px;
+}
+
+/* header scetion */
+
+header {
+    height: 8vh;
+    background-color: rgb(58, 58, 56);
+    margin: auto;
+
+    /* justify-content: space-around; */
+    display: flex;
+    align-items: center;
+    gap: 100px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* Name left, image right */
+    align-items: center;
+    padding: 10px 20px;
+    gap: 1097px;
+}
+
+nav h5 {
+    font-size: 20px;
+    color: white;
+}
+
+nav img {
+    width: 40px;
+    height: 50px;
+    border-radius: 3px;
+
+}
+
+/* About scetion */
+
+.About {
+    display: flex;
+    justify-content: space-between;
+
+    height: 40vh;
+    background-color: rgb(131, 128, 128);
+
+}
+
+.span h1 {
+    /* color: white; */
+    margin: 60px 1px 9px 5px;
+    padding-left: 101px;
+}
+
+.span h2 {
+    /* color: white; */
+    margin: 20px 24px 39px 104px;
+
+    /* padding-left: 101px; */
+}
+
+.span ul {
+    color: black;
+    margin: -35px 59px 58px 236px;
+}
+
+.About img {
+    width: 17vw;
+    height: 40vh;
+}
+
+
+/* Skiils section */
+
+.skills {
+    height: 30vh;
+    background-color: rgb(131, 128, 128);
+
+}
+
+.skills h1 {
+    margin: 0px 53px 5px 15px;
+}
+
+.skills ul {
+    margin: 5px 54px 9px 115px;
+}
+
+.skills p {
+    margin: 5px 54px 9px 40px;
+}
+
+
+/* project section */
+
+.project {
+    height: 15vh;
+    background-color: rgb(131, 128, 128);
+}
+
+.project h1 {
+    margin: 0px 53px 5px 15px;
+}
+
+.project ul {
+    margin: 5px 54px 9px 215px;
+}
+
+/* Resume section */
+.resume {
+    height: 15vh;
+    background-color: rgb(131, 128, 128);
+}
+
+.resume h1 {
+    margin: 0px 53px 5px 15px;
+}
+
+.resume button {
+    margin: 5px 54px 9px 275px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+    background-color: rgb(131, 128, 128);
+}
+
+.resume button a {
+    text-decoration: none;
+}
+
+.resume button a:hover {
+    background-color: black;
+    cursor: pointer;
+
+}
+
+
+/* contact section */
+.contact {
+    height: 20vh;
+    background-color: rgb(131, 128, 128);
+}
+
+.contact h1 {
+    margin: 0px 53px 5px 15px;
+}
+
+.contact ul {
+    margin: 16px 54px 9px 375px;
+}
+
+.footer {
+    height: 10vh;
+    background-color: white;
+}
+
+.footer p {
+    margin: 0px 54px 9px 330px;
+}
+
+.footer p a:hover {
+    cursor: pointer;
+    background-color: black;
+}\
